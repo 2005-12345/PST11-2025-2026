@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="CEL TO FEH"/>
+        <attribute name="authors" value="devadharshini"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 02:50:35 PM"/>
+        <attribute name="created" value="ZGV2YWRoYXJzaGluaTtMQVBUT1AtMjBPSERETE87MjAyNi0wMS0wNjswMjo0NzozOSBQTTszNzA1"/>
+        <attribute name="edited" value="ZGV2YWRoYXJzaGluaTtMQVBUT1AtMjBPSERETE87MjAyNi0wMS0wNjswMjo1MDozNSBQTTsxOzM4MDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="CELCIUS" type="Integer" array="False" size=""/>
+            <input variable="CELCIUS"/>
+            <declare name="FEHRENHEIT" type="Integer" array="False" size=""/>
+            <assign variable="FEHRENHEIT" expression="(CELCIUS*9/5)+35"/>
+            <output expression="FEHRENHEIT" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
