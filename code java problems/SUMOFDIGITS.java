@@ -13,11 +13,12 @@ public class SUMOFDIGITS {
         int sum = 0, digit;
 
         while (num != 0) {
-            digit = num % 10;   // get last digit
-            sum = sum + digit; // add digit to sum
-            num = num / 10;    // remove last digit
+            digit = num % 10;   
+            sum = sum + digit; 
+            num = num / 10;    
         }
 
         System.out.println("Sum of digits = " + sum);
     }
 }
+
